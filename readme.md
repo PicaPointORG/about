@@ -7,7 +7,7 @@ Se necesita antes de nada clonar el repositorio __db__ en local, y posteriorment
 Para ejecutar el script se ha de tener la carpeta de mysql en el path de las variables de entorno, para asi acceder al comando _mysql_ desde cualquier parte del terminal, y posteriormente ejecutar el comando __mysql -u root -p__ desde la carpeta descargada del repositorio _db_, y posteriormente ejecutar el comando __source global.sql__ para ejecutar el script y crear las tablas necesarias con los datos insertados por defecto.
 
 * ### _Servidor_
-Primero se debe clonar el repositorio remoto de __server__ en local y posteriormente es recomendable iniciarlo en algún entorno de desarrollo como IntelliJ, ya que exportanto el servidor en formato _.jar_, puede dar lugar a errores inesperados.
+Clonar el repositorio remoto de __server__ en local y posteriormente es recomendable iniciarlo en algún entorno de desarrollo como IntelliJ, ya que exportanto el servidor en formato _.jar_, puede dar lugar a errores inesperados.
 
 El servidor contiene las plantillas HTML de la web necesarias para funcionar, por tanto, una vez arrancado el servidor con el IntelliJ, ya solo faltaría dirigirse a [localhost](localhost:8080) en el puerto _8080_ para visualizar la web.
 
